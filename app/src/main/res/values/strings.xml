@@ -39,8 +39,11 @@
     <!-- Label for the location preference [CHAR LIMIT=30] -->
     <string name="pref_location_label">Location</string>
 
-    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <!--   name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
     <string name="pref_location_key" translatable="false">location</string>
+
+    <!--   name for storing location status in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_status_key" translatable="false">loc-status</string>
 
     <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
     <string name="pref_location_default" translatable="false">94043</string>
@@ -54,6 +57,12 @@
     <string name="pref_enable_notifications_default" translatable="false">true</string>
 
     <!-- Strings for formatting weather-related data -->
+    <string name="list_view_forecast_empty">No Weather Information Available</string>
+    <string name="list_view_forecast_network_unavailable">The network is not available to fetch the weather data</string>
+    <string name="list_view_forecast_server_down">Sorry, The server is down.</string>
+    <string name="list_view_forecast_server_invalid">Sorry, The server is invalid.</string>
+    <string name="list_view_forecast_server_unknown">Sorry, The server is unknown.</string>
+    <string name="list_view_forecast_invalid_location">Sorry, that is not a valid location.</string>
 
     <!-- Label for the temperature units preference [CHAR LIMIT=30] -->
     <string name="pref_units_label">Temperature Units</string>
